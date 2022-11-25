@@ -1,0 +1,109 @@
+.setetres__letter--r {
+    div:first-child {
+        &::before {
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            transition: height var(--transition-timing) var(--transition-easing) 0ms;
+            width: var(--setetres-font-weight);
+        }
+
+        &::after {
+            height: var(--setetres-font-weight);
+            left: 0;
+            top: 0;
+            transition: width var(--transition-timing) var(--transition-easing) 500ms;
+            width: 100%;
+        }
+    }
+
+    div:nth-child(2) {
+        &::before {
+            height: 50%;
+            right: 0;
+            top: 0;
+            transition: height var(--transition-timing) var(--transition-easing) 1000ms;
+            width: var(--setetres-font-weight);
+        }
+
+        &::after {
+            height: var(--setetres-font-weight);
+            margin-top: calc(#{var(--setetres-font-weight-half)} * -1);
+            right: 0;
+            top: 50%;
+            transition: width var(--transition-timing) var(--transition-easing) 1500ms;
+            width: 100%;
+        }
+    }
+
+    div:nth-child(3) {
+        &::before {
+            height: 25%;
+            right: var(--setetres-font-weight);
+            top: 50%;
+            transition: height var(--transition-timing) var(--transition-easing) 2000ms;
+            width: var(--setetres-font-weight);
+        }
+
+        &::after {
+            height: 25%;
+            right: 0;
+            top: 75%;
+            transition: height var(--transition-timing) var(--transition-easing) 2500ms;
+            width: var(--setetres-font-weight);
+        }
+    }
+}
+
+.setetres--loading {
+    .setetres__letter--r {
+        div:first-child {
+            &::before {
+                bottom: 0;
+                height: 0;
+                left: 0;
+                width: var(--setetres-font-weight);
+            }
+
+            &::after {
+                height: var(--setetres-font-weight);
+                left: 0;
+                top: 0;
+                width: 0;
+            }
+        }
+
+        div:nth-child(2) {
+            &::before {
+                height: 0;
+                right: 0;
+                top: 0;
+                width: var(--setetres-font-weight);
+            }
+
+            &::after {
+                height: var(--setetres-font-weight);
+                margin-top: calc(#{var(--setetres-font-weight-half)} * -1);
+                right: 0;
+                top: 50%;
+                width: 0;
+            }
+        }
+
+        div:nth-child(3) {
+            &::before {
+                height: 0;
+                right: var(--setetres-font-weight);
+                top: 50%;
+                width: var(--setetres-font-weight);
+            }
+
+            &::after {
+                height: 0;
+                right: 0;
+                top: 75%;
+                width: var(--setetres-font-weight);
+            }
+        }
+    }
+}
