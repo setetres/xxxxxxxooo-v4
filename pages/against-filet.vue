@@ -1,7 +1,7 @@
 <template>
     <Bar title="Against Filet" />
     <CardImage class="p-12">
-        <img src="~assets/images/lunchrider-exe.png" width="1080" height="1080" alt="" />
+        <img src="~assets/images/against-filet.png" width="1080" height="1080" alt="Against Filet Cover" />
     </CardImage>
     <CardDetail>
         <Detail name="#01">
@@ -10,7 +10,7 @@
     </CardDetail>
     <CardImage class="col-span-2 p-12">
         <div class="w-full aspect-w-16 aspect-h-9">
-            <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/o7GLLbly_6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/agflnPX22cQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </CardImage>
     <CardDetail class="col-span-2">
@@ -18,7 +18,7 @@
             Against Filet
         </Detail>
         <Detail name="Description">
-            Against Filet (EP), by XXXXXXXOOO featuring Grupo Porco.<br />Recorded in FL Studio 20 during the COVID-19 quarantine.
+            Against Filet (Single), by XXXXXXXOOO featuring Grupo Porco.<br />Recorded in FL Studio 20 during the COVID-19 quarantine.
         </Detail>
         <Detail name="Type">
             Single
@@ -30,15 +30,43 @@
         </Detail>
     </CardDetail>
     <CardExternal
-    label="Source Code"
-    title="View on GitHub"
+    label="Listen"
+    title="Apple Music"
     description="github.com/setetres/v14"
     url="github.com/setetres/v14"
-    class="rounded-bl-lg"
+    class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Live"
-    title="View Project"
+    label="Listen"
+    title="Bandcamp"
+    description="v14.setetres.st"
+    url="v14.setetres.st"
+    class="rounded-br-lg pattern"
+    />
+    <CardExternal
+    label="Listen"
+    title="Deezer"
+    description="github.com/setetres/v14"
+    url="github.com/setetres/v14"
+    class="rounded-bl-lg pattern"
+    />
+    <CardExternal
+    label="Listen"
+    title="Spotify"
+    description="v14.setetres.st"
+    url="v14.setetres.st"
+    class="rounded-br-lg pattern"
+    />
+    <CardExternal
+    label="Listen"
+    title="Tidal"
+    description="github.com/setetres/v14"
+    url="github.com/setetres/v14"
+    class="rounded-bl-lg pattern"
+    />
+    <CardExternal
+    label="Listen"
+    title="Youtube"
     description="v14.setetres.st"
     url="v14.setetres.st"
     class="rounded-br-lg pattern"

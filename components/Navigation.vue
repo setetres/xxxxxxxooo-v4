@@ -22,7 +22,7 @@
             <HeadingSans>2021</HeadingSans>
             <ul role="list" class="mt-4 space-y-4">
                 <li>
-                    <NavigationLink to="v10">
+                    <NavigationLink to="ijwgh">
                         I.J.W.G.H
                     </NavigationLink>
                 </li>
@@ -83,12 +83,12 @@
             <ul role="list" class="mt-4 space-y-4">
 
                 <li>
-                    <NavigationLink to="v2">
+                    <NavigationLink to="V3">
                         Version Three
                     </NavigationLink>
                 </li>
                 <li>
-                    <NavigationLink to="1997">
+                    <NavigationLink to="V2">
                         Version Two
                     </NavigationLink>
                 </li>

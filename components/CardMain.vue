@@ -5,7 +5,7 @@
         </span>
         <div class="mt-6">
             <h3 class="font-medium">
-                <NuxtLink :to="url" class="n-link-base focus:outline-none">
+                <NuxtLink :to="url" class="focus:outline-none">
                     <span class="absolute inset-0" aria-hidden="true"></span>
                     <HeadingSans>{{ label }}</HeadingSans>
                     <HeadingSerif class="text-4xl group-hover:text-fuchsia-400">

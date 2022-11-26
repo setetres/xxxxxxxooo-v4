@@ -1,53 +1,50 @@
 <template>
-    <Bar />
-    <div class="divide-y divide-zinc-700 overflow-hidden rounded-lg bg-zinc-700 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0 border border-zinc-700">
-        <div class="relative group sm:col-span-2 bg-zinc-900 p-12 focus-within:ring-2 focus-within:ring-inset focus-within:ring-fuchsia-500">
-            <div>
-                <span class="rounded-lg inline-flex text-white overflow-hidden">
-                    <img src="~assets/images/v2.png" width="2560" height="1440" alt="" />
-                </span>
-            </div>
-            <dl class="uppercase divide-y divide-zinc-800">
-                <Detail name="Project">
-                    v2
-                </Detail>
-                <Detail name="Description">
-                    🎯 v2.0 of my website.
-                </Detail>
-                <Detail name="Framework">
-                    Vue / NuxtJS
-                </Detail>
-                <Detail name="Responsive">
-                    <Tag>
-                        Yes
-                    </Tag>
-                </Detail>
-                <Detail name="Year">
-                    2010
-                </Detail>
-            </dl>
-        </div>
-        <CardExternal
-        label="Source Code"
-        title="View on GitHub"
-        description="github.com/setetres/v2"
-        url="https://github.com/setetres/v2"
-        class="rounded-bl-lg"
-        >
-    </CardExternal>
+    <Bar title="v2" />
+    <CardImage class="col-span-2 p-12">
+        <img src="~assets/images/v2.png" width="2560" height="1440" alt="" />
+    </CardImage>
+    <CardImage class="p-12">
+        <img src="~assets/images/v2.png" width="2560" height="1440" alt="" />
+    </CardImage>
+    <CardText>
+        <HeadingSans>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </HeadingSans>
+        <HeadingSerif class="text-5xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </HeadingSerif>
+    </CardText>
+    <CardImage class="col-span-2 p-12">
+        <img src="~assets/images/v2.png" width="2560" height="1440" alt="" />
+    </CardImage>
+    <CardDetail class="col-span-2">
+        <Detail name="Project">
+            v2
+        </Detail>
+        <Detail name="Description">
+            👻 v2.0 of my website.
+        </Detail>
+        <Detail name="Framework">
+            Vue / NuxtJS
+        </Detail>
+        <Detail name="Year">
+            <Tag>
+                2008
+            </Tag>
+        </Detail>
+    </CardDetail>
+    <CardExternal
+    label="Source Code"
+    title="View on GitHub"
+    description="github.com/setetres/v2"
+    url="github.com/setetres/v2"
+    class="rounded-bl-lg"
+    />
     <CardExternal
     label="Live"
     title="View Project"
     description="v2.setetres.st"
-    url="https://github.com/setetres/v2"
+    url="v2.setetres.st"
     class="rounded-br-lg pattern"
-    >
-</CardExternal>
-</div>
+    />
 </template>
-<script lang="ts">
-export default {
-    mounted() {
-    },
-}
-</script>

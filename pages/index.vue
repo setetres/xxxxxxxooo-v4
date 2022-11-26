@@ -6,7 +6,7 @@
     url="against-filet"
     class="rounded-tl-lg rounded-tr-none"
     >
-        <img src="~assets/images/lunchrider-exe.png" width="1080" height="1080" alt="Against Filet Cover" />
+        <img src="~assets/images/against-filet.png" width="1080" height="1080" alt="Against Filet Cover" />
     </CardMain>
     <CardMain
     label="2022"

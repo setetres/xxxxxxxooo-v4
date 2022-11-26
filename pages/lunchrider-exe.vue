@@ -1,7 +1,7 @@
 <template>
     <Bar title="LunchRider.exe" />
     <CardImage class="p-12">
-        <img src="~assets/images/lunchrider-exe.png" width="1080" height="1080" alt="" />
+        <img src="~assets/images/lunchrider-exe.png" width="1080" height="1080" alt="LunchRider.exe Cover" />
     </CardImage>
     <CardDetail>
         <Detail name="#01">
