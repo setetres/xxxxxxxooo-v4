@@ -2,7 +2,7 @@
     <div class="relative group bg-zinc-900 p-12 focus-within:ring-2 focus-within:ring-inset focus-within:ring-white">
         <div class="mt-6">
             <h3 class="font-medium">
-                <a :href="'https://' + url" class="focus:outline-none" target="_blank" rel="noopener noreferrer">
+                <a :href="'https://' + url" class="focus:outline-none" target="_blank">
                     <span class="absolute inset-0" aria-hidden="true"></span>
                     <HeadingSans>{{ label }}</HeadingSans>
                     <HeadingSerif class="text-4xl group-hover:text-fuchsia-400">

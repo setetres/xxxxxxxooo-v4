@@ -1,17 +1,14 @@
 <template>
-    <Bar title="moshaxe" />
+    <Bar title="MOSHAXÉ" />
     <CardImage class="p-12">
-        <img src="~assets/images/moshaxe.png" width="1080" height="1080" alt="moshaxe Cover" />
+        <img src="~assets/images/moshaxe.png" width="1080" height="1080" alt="MOSHAXÉ Cover" />
     </CardImage>
     <CardDetail>
         <Detail name="#01">
-            Intro
-        </Detail>
-        <Detail name="#02">
-            Sleep, Repeat Part 1
-        </Detail>
-        <Detail name="#03">
-            Sleep, Repeat Part 2
+            <div class="flex flex-1 justify-between">
+                <span>MOSHAXÉ</span>
+                <span>2:19</span>
+            </div>
         </Detail>
     </CardDetail>
     <CardImage class="col-span-2 p-12">
@@ -21,60 +18,60 @@
     </CardImage>
     <CardDetail class="col-span-2">
         <Detail name="Title">
-            moshaxe
+            MOSHAXÉ
         </Detail>
         <Detail name="Description">
-            moshaxe (EP), by XXXXXXXOOO featuring Grupo Porco.<br />Recorded in FL Studio 20 during the COVID-19 quarantine.
+            MOSHAXÉ (Single), by XXXXXXXOOO. Recorded in FL Studio 20 during the COVID-19 quarantine.
         </Detail>
         <Detail name="Type">
-            EP
+            Single
         </Detail>
         <Detail name="Year">
             <Tag>
-                2022
+                2020
             </Tag>
         </Detail>
     </CardDetail>
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Apple Music"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="music.apple.com/br/album/moshax%C3%A9-single/1517796928"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Bandcamp"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="xxxxxxxooo.bandcamp.com/track/moshax"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Deezer"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="deezer.com/br/album/153832442"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Spotify"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="open.spotify.com/album/252g8ZxQ4NWe0SdrW40qoh"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Tidal"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="tidal.com/browse/album/144626772"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Watch on"
     title="Youtube"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="youtube.com/watch?v=Cv9DGU4jOQ8"
     class="rounded-br-lg pattern"
     />
 </template>

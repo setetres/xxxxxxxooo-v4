@@ -5,13 +5,22 @@
     </CardImage>
     <CardDetail>
         <Detail name="#01">
-            Intro
+            <div class="flex flex-1 justify-between">
+                <span>Intro</span>
+                <span>1:09</span>
+            </div>
         </Detail>
         <Detail name="#02">
-            Sleep, Repeat Part 1
+            <div class="flex flex-1 justify-between">
+                <span>Sleep/Repeat, Part 1</span>
+                <span>2:02</span>
+            </div>
         </Detail>
         <Detail name="#03">
-            Sleep, Repeat Part 2
+            <div class="flex flex-1 justify-between">
+                <span>Sleep/Repeat, Part 2</span>
+                <span>2:27</span>
+            </div>
         </Detail>
     </CardDetail>
     <CardImage class="col-span-2 p-12">
@@ -24,7 +33,7 @@
             LunchRider.exe
         </Detail>
         <Detail name="Description">
-            LunchRider.exe (EP), by XXXXXXXOOO featuring Grupo Porco.<br />Recorded in FL Studio 20 during the COVID-19 quarantine.
+            LunchRider.exe (EP), by XXXXXXXOOO featuring Grupo Porco. Recorded in FL Studio 20 during the COVID-19 quarantine.
         </Detail>
         <Detail name="Type">
             EP
@@ -34,47 +43,52 @@
                 2022
             </Tag>
         </Detail>
+        <Detail name="Extra">
+            <NavigationLink to="https://instagram.com/ar/430523635205836" target="_blank">
+                Instagram Filter
+            </NavigationLink>
+        </Detail>
     </CardDetail>
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Apple Music"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="music.apple.com/br/album/lunchrider-exe-single/1600384926"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Bandcamp"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="xxxxxxxooo.bandcamp.com/album/lunchrider-exe"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Deezer"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="deezer.com/br/album/280521002"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Spotify"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="open.spotify.com/album/5llp2E1SNPaZZPT0Fospwi"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Tidal"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="tidal.com/browse/album/209251677"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Watch on"
     title="Youtube"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="www.youtube.com/watch?v=o7GLLbly_6A"
     class="rounded-br-lg pattern"
     />
 </template>

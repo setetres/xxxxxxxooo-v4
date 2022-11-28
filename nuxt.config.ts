@@ -32,7 +32,6 @@ export default defineNuxtConfig({
     css: [
         // CSS file in the project
         '~/assets/css/application.scss',
-        '~/assets/css/setetres.scss'
     ],
     postcss: {
         plugins: {

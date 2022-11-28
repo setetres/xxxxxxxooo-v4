@@ -1,5 +1,5 @@
 <template>
-    <Bar title="v2" />
+    <Bar title="xxxxxxxooo-v2" />
     <CardImage class="col-span-2 p-12">
         <img src="~assets/images/v2.png" width="2560" height="1440" alt="" />
     </CardImage>
@@ -19,7 +19,7 @@
     </CardImage>
     <CardDetail class="col-span-2">
         <Detail name="Project">
-            v2
+            xxxxxxxooo-v2
         </Detail>
         <Detail name="Description">
             👻 v2.0 of my website.
@@ -29,22 +29,22 @@
         </Detail>
         <Detail name="Year">
             <Tag>
-                2008
+                2021
             </Tag>
         </Detail>
     </CardDetail>
     <CardExternal
     label="Source Code"
     title="View on GitHub"
-    description="github.com/setetres/v2"
-    url="github.com/setetres/v2"
+    description="github.com/setetres/xxxxxxxooo-v2"
+    url="github.com/setetres/xxxxxxxooo-v2"
     class="rounded-bl-lg"
     />
     <CardExternal
     label="Live"
     title="View Project"
-    description="v2.setetres.st"
-    url="v2.setetres.st"
+    description="v2.xxxxxxx.ooo"
+    url="v2.xxxxxxx.ooo"
     class="rounded-br-lg pattern"
     />
 </template>

@@ -5,7 +5,10 @@
     </CardImage>
     <CardDetail>
         <Detail name="#01">
-            Against Filet
+            <div class="flex flex-1 justify-between">
+                <span>Against Filet</span>
+                <span>1:51</span>
+            </div>
         </Detail>
     </CardDetail>
     <CardImage class="col-span-2 p-12">
@@ -18,7 +21,7 @@
             Against Filet
         </Detail>
         <Detail name="Description">
-            Against Filet (Single), by XXXXXXXOOO featuring Grupo Porco.<br />Recorded in FL Studio 20 during the COVID-19 quarantine.
+            Against Filet (Single), by XXXXXXXOOO featuring Grupo Porco. Recorded in FL Studio 20 during the COVID-19 quarantine.
         </Detail>
         <Detail name="Type">
             Single
@@ -30,44 +33,44 @@
         </Detail>
     </CardDetail>
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Apple Music"
-    description="github.com/setetres/v14"
+    description="Available now!"
     url="github.com/setetres/v14"
-    class="rounded-bl-lg pattern"
+    class="pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Bandcamp"
-    description="v14.setetres.st"
+    description="Available now!"
     url="v14.setetres.st"
-    class="rounded-br-lg pattern"
+    class="pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Deezer"
-    description="github.com/setetres/v14"
+    description="Available now!"
     url="github.com/setetres/v14"
-    class="rounded-bl-lg pattern"
+    class="pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Spotify"
-    description="v14.setetres.st"
+    description="Available now!"
     url="v14.setetres.st"
-    class="rounded-br-lg pattern"
+    class="pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Tidal"
-    description="github.com/setetres/v14"
+    description="Available now!"
     url="github.com/setetres/v14"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Watch on"
     title="Youtube"
-    description="v14.setetres.st"
+    description="Available now!"
     url="v14.setetres.st"
     class="rounded-br-lg pattern"
     />

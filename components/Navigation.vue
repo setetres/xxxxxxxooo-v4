@@ -6,6 +6,9 @@
                 <li>
                     <NavigationLink to="against-filet">
                         Against Filet
+                        <Tag class="ml-2">
+                            New
+                        </Tag>
                     </NavigationLink>
                 </li>
             </ul>
@@ -53,7 +56,7 @@
             <ul role="list" class="mt-4 space-y-4">
                 <li>
                     <NavigationLink to="vazio">
-                        VAZIO
+                        VAZIØ
                     </NavigationLink>
                 </li>
                 <li>
@@ -63,7 +66,7 @@
                 </li>
                 <li>
                     <NavigationLink to="moshaxe">
-                        MOSHAXE
+                        MOSHAXÉ
                     </NavigationLink>
                 </li>
                 <li>
@@ -83,12 +86,12 @@
             <ul role="list" class="mt-4 space-y-4">
 
                 <li>
-                    <NavigationLink to="V3">
+                    <NavigationLink to="v3">
                         Version Three
                     </NavigationLink>
                 </li>
                 <li>
-                    <NavigationLink to="V2">
+                    <NavigationLink to="v2">
                         Version Two
                     </NavigationLink>
                 </li>

@@ -5,7 +5,10 @@
     </CardImage>
     <CardDetail>
         <Detail name="#01">
-            IJWGH
+            <div class="flex flex-1 justify-between">
+                <span>I.J.W.G.H</span>
+                <span>1:37</span>
+            </div>
         </Detail>
     </CardDetail>
     <CardImage class="col-span-2 p-12">
@@ -18,57 +21,57 @@
             I.J.W.G.H
         </Detail>
         <Detail name="Description">
-            I.J.W.G.H (EP), by XXXXXXXOOO featuring Grupo Porco.<br />Recorded in FL Studio 20 during the COVID-19 quarantine.
+            I.J.W.G.H (Single), by XXXXXXXOOO. Recorded in FL Studio 20 during the COVID-19 quarantine.
         </Detail>
         <Detail name="Type">
-            EP
+            Single
         </Detail>
         <Detail name="Year">
             <Tag>
-                2022
+                2021
             </Tag>
         </Detail>
     </CardDetail>
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Apple Music"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="music.apple.com/br/album/i-j-w-g-h-single/1577022357"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Bandcamp"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="xxxxxxxooo.bandcamp.com/track/i-j-w-g-h"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Deezer"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="deezer.com/br/album/245251512"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Spotify"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="open.spotify.com/album/4tsB7ObHBi18ggyWmTQKM1"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Tidal"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="tidal.com/browse/album/191341873"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Watch on"
     title="Youtube"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="youtube.com/watch?v=Kx-yKxgDpaE"
     class="rounded-br-lg pattern"
     />
 </template>

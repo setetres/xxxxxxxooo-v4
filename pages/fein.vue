@@ -1,17 +1,32 @@
 <template>
-    <Bar title="fein" />
+    <Bar title="FEIN" />
     <CardImage class="p-12">
-        <img src="~assets/images/fein.png" width="1080" height="1080" alt="fein Cover" />
+        <img src="~assets/images/fein.png" width="1080" height="1080" alt="FEIN Cover" />
     </CardImage>
     <CardDetail>
         <Detail name="#01">
-            Intro
+            <div class="flex flex-1 justify-between">
+                <span>QUATRE-VINGT-DIX-NEUF</span>
+                <span>2:38</span>
+            </div>
         </Detail>
         <Detail name="#02">
-            Sleep, Repeat Part 1
+            <div class="flex flex-1 justify-between">
+                <span>COWEED-19</span>
+                <span>2:18</span>
+            </div>
         </Detail>
         <Detail name="#03">
-            Sleep, Repeat Part 2
+            <div class="flex flex-1 justify-between">
+                <span>XD</span>
+                <span>2:33</span>
+            </div>
+        </Detail>
+        <Detail name="#04">
+            <div class="flex flex-1 justify-between">
+                <span>BANJO</span>
+                <span>2:45</span>
+            </div>
         </Detail>
     </CardDetail>
     <CardImage class="col-span-2 p-12">
@@ -24,7 +39,6 @@
             <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/F4jxM04IStM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </CardImage>
-
     <CardImage class="col-span-2 p-12">
         <div class="w-full aspect-w-16 aspect-h-9">
             <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/1qnuYMpv5T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -35,63 +49,67 @@
             <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/ECpvHjLvvDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </CardImage>
-
     <CardDetail class="col-span-2">
         <Detail name="Title">
-            fein
+            FEIN
         </Detail>
         <Detail name="Description">
-            fein (EP), by XXXXXXXOOO featuring Grupo Porco.<br />Recorded in FL Studio 20 during the COVID-19 quarantine.
+            FEIN (EP), by XXXXXXXOOO. Recorded in FL Studio 20 during the COVID-19 quarantine.
         </Detail>
         <Detail name="Type">
             EP
         </Detail>
         <Detail name="Year">
             <Tag>
-                2022
+                2020
             </Tag>
+        </Detail>
+        <Detail name="Extra">
+            <NavigationLink to="https://instagram.com/ar/929622894133566" target="_blank">
+                Instagram Filter
+            </NavigationLink>
         </Detail>
     </CardDetail>
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Apple Music"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="music.apple.com/br/album/fein-ep/1513768644"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Bandcamp"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="xxxxxxxooo.bandcamp.com/album/fein"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Deezer"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="deezer.com/br/album/148877002"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Spotify"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="open.spotify.com/album/0nN10kpHYXrOmIKOr36Ggx"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Tidal"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="tidal.com/browse/album/141839510"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Watch on"
     title="Youtube"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="youtube.com/watch?v=JtOb7rY6024&list=PLWjcKkvgds-9TuK2urpOPMtvwxTU23zmO"
     class="rounded-br-lg pattern"
     />
 </template>

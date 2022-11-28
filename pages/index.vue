@@ -59,11 +59,11 @@
     </CardMain>
     <CardMain
     label="2016"
-    title="VAZIO"
+    title="VAZIØ"
     description="Single"
     url="vazio"
     >
-        <img src="~assets/images/vazio.png" width="1080" height="1080" alt="VAZIO Cover" />
+        <img src="~assets/images/vazio.png" width="1080" height="1080" alt="VAZIØ Cover" />
     </CardMain>
     <CardMain
     label="2015"

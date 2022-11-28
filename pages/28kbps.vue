@@ -5,13 +5,10 @@
     </CardImage>
     <CardDetail>
         <Detail name="#01">
-            Intro
-        </Detail>
-        <Detail name="#02">
-            Sleep, Repeat Part 1
-        </Detail>
-        <Detail name="#03">
-            Sleep, Repeat Part 2
+            <div class="flex flex-1 justify-between">
+                <span>28kbps</span>
+                <span>2:50</span>
+            </div>
         </Detail>
     </CardDetail>
     <CardImage class="col-span-2 p-12">
@@ -19,66 +16,65 @@
             <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/2fzg-qhXrEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </CardImage>
-
     <CardImage class="col-span-2 p-12">
-        <img src="~assets/images/thumbnail-28kbps.jpg" width="1080" height="1080" alt="vingt-vingt Cover" />
+        <img src="~assets/images/28kbps-image.jpg" width="1920" height="1080" alt="28kbps Diskette Pack" class="w-full" />
     </CardImage>
     <CardDetail class="col-span-2">
         <Detail name="Title">
             28kbps
         </Detail>
         <Detail name="Description">
-            28kbps (EP), by XXXXXXXOOO featuring Grupo Porco.<br />Recorded in FL Studio 20 during the COVID-19 quarantine.
+            28kbps (Single), by XXXXXXXOOO. Recorded in FL Studio 20 during the COVID-19 quarantine.
         </Detail>
         <Detail name="Type">
-            EP
+            Single
         </Detail>
         <Detail name="Year">
             <Tag>
-                2022
+                2021
             </Tag>
         </Detail>
     </CardDetail>
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Apple Music"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="music.apple.com/br/album/28kbps-single/1565684474"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Bandcamp"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="xxxxxxxooo.bandcamp.com/track/28kbps"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Deezer"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="deezer.com/br/album/227209982"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Spotify"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="open.spotify.com/album/5IFg2JaeMZRPz6jEG98DdM"
     class="rounded-br-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Listen on"
     title="Tidal"
-    description="github.com/setetres/v14"
-    url="github.com/setetres/v14"
+    description="Available now!"
+    url="tidal.com/browse/album/182667703"
     class="rounded-bl-lg pattern"
     />
     <CardExternal
-    label="Listen"
+    label="Watch on"
     title="Youtube"
-    description="v14.setetres.st"
-    url="v14.setetres.st"
+    description="Available now!"
+    url="youtube.com/watch?v=2fzg-qhXrEc"
     class="rounded-br-lg pattern"
     />
 </template>
