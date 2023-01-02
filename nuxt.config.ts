@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'XXXXXXXOOO',
+      title: 'XXXXXXXOOO — v4',
       meta: [
         {
           charset: 'utf-8'
@@ -22,7 +22,7 @@ export default defineNuxtConfig({
           hid: 'og:type', property: 'og:type', content: 'website'
         },
         {
-          hid: 'og:title', property: 'og:title', content: 'XXXXXXXOOO'
+          hid: 'og:title', property: 'og:title', content: 'XXXXXXXOOO — v4'
         },
         {
           hid: 'og:description',
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
           content: 'summary_large_image'
         },
         {
-          hid: 'twitter:title', name: 'twitter:title', content: 'XXXXXXXOOO'
+          hid: 'twitter:title', name: 'twitter:title', content: 'XXXXXXXOOO — v4'
         },
         {
           hid: 'twitter:description',
