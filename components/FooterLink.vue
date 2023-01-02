@@ -5,10 +5,10 @@
   </a>
 </template>
 <script>
-export default {
-  props: [
-  'label',
-  'url',
-  ]
-}
+  export default {
+    props: [
+    'label',
+    'url',
+    ]
+  }
 </script>

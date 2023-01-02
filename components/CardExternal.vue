@@ -18,12 +18,12 @@
   </div>
 </template>
 <script>
-export default {
-  props: [
-  'label',
-  'title',
-  'description',
-  'url',
-  ]
-}
+  export default {
+    props: [
+    'label',
+    'title',
+    'description',
+    'url'
+    ]
+  }
 </script>
