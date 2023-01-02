@@ -5,7 +5,7 @@
         <HeadingSans>2023</HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="against-filet">
+            <NavigationLink to="/against-filet">
               Against Filet
               <Tag class="ml-2">
                 New
@@ -18,7 +18,7 @@
         <HeadingSans>2022</HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="lunchrider-exe">
+            <NavigationLink to="/lunchrider-exe">
               LunchRider.exe
             </NavigationLink>
           </li>
@@ -30,27 +30,27 @@
         <HeadingSans>2021</HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="ijwgh">
+            <NavigationLink to="/ijwgh">
               I.J.W.G.H
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="28kbps">
+            <NavigationLink to="/28kbps">
               28kbps
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="56kbps">
+            <NavigationLink to="/56kbps">
               56kbps
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="untitled">
+            <NavigationLink to="/untitled">
               Untitled
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="nief">
+            <NavigationLink to="/nief">
               NIEF
             </NavigationLink>
           </li>
@@ -62,27 +62,27 @@
         <HeadingSans>2020</HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="vazio">
+            <NavigationLink to="/vazio">
               VAZIØ
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="vingt-vingt">
+            <NavigationLink to="/vingt-vingt">
               VINGT-VINGT
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="moshaxe">
+            <NavigationLink to="/moshaxe">
               MOSHAXÉ
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="triceracough">
+            <NavigationLink to="/triceracough">
               TRICERACOUGH
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="fein">
+            <NavigationLink to="/fein">
               FEIN
             </NavigationLink>
           </li>
@@ -94,17 +94,17 @@
         <HeadingSans>Archive</HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="v3">
+            <NavigationLink to="/v3">
               Version Three
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="v2">
+            <NavigationLink to="/v2">
               Version Two
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="v1">
+            <NavigationLink to="/v1">
               Version One
             </NavigationLink>
           </li>
