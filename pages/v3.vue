@@ -20,17 +20,17 @@
     </Detail>
   </CardDetail>
   <CardExternal
-  label="Source Code"
-  title="View on GitHub"
-  description="github.com/setetres/xxxxxxxooo-v3"
-  url="github.com/setetres/xxxxxxxooo-v3"
-  class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none"
+    label="Source Code"
+    title="View on GitHub"
+    description="github.com/setetres/xxxxxxxooo-v3"
+    url="github.com/setetres/xxxxxxxooo-v3"
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none"
   />
   <CardExternal
-  label="Live"
-  title="View Project"
-  description="v3.xxxxxxx.ooo"
-  url="v3.xxxxxxx.ooo"
-  class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    label="Live"
+    title="View Project"
+    description="v3.xxxxxxx.ooo"
+    url="v3.xxxxxxx.ooo"
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
   />
 </template>

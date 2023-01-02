@@ -232,45 +232,45 @@
     </Detail>
   </CardDetail>
   <CardExternal
-  label="Listen on"
-  title="Apple Music"
-  description="Available now!"
-  url="music.apple.com/br/album/nief-ep/1551229648"
-  class="pattern"
+    label="Listen on"
+    title="Apple Music"
+    description="Available now!"
+    url="music.apple.com/br/album/nief-ep/1551229648"
+    class="pattern"
   />
   <CardExternal
-  label="Listen on"
-  title="Bandcamp"
-  description="Available now!"
-  url="xxxxxxxooo.bandcamp.com/album/nief"
-  class="pattern"
+    label="Listen on"
+    title="Bandcamp"
+    description="Available now!"
+    url="xxxxxxxooo.bandcamp.com/album/nief"
+    class="pattern"
   />
   <CardExternal
-  label="Listen on"
-  title="Deezer"
-  description="Available now!"
-  url="deezer.com/br/album/203576412"
-  class="pattern"
+    label="Listen on"
+    title="Deezer"
+    description="Available now!"
+    url="deezer.com/br/album/203576412"
+    class="pattern"
   />
   <CardExternal
-  label="Listen on"
-  title="Spotify"
-  description="Available now!"
-  url="open.spotify.com/album/5gX1vki0e5muS6cZlAKRJC"
-  class="pattern"
+    label="Listen on"
+    title="Spotify"
+    description="Available now!"
+    url="open.spotify.com/album/5gX1vki0e5muS6cZlAKRJC"
+    class="pattern"
   />
   <CardExternal
-  label="Listen on"
-  title="Tidal"
-  description="Available now!"
-  url="tidal.com/browse/album/171478178"
-  class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    label="Listen on"
+    title="Tidal"
+    description="Available now!"
+    url="tidal.com/browse/album/171478178"
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
   />
   <CardExternal
-  label="Watch on"
-  title="Youtube"
-  description="Available now!"
-  url="youtube.com/watch?v=kz9_0yhU6HI&list=PLWjcKkvgds--JU0L2XjDhaEJbKwNZJCk6"
-  class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    label="Watch on"
+    title="Youtube"
+    description="Available now!"
+    url="youtube.com/watch?v=kz9_0yhU6HI&list=PLWjcKkvgds--JU0L2XjDhaEJbKwNZJCk6"
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
   />
 </template>

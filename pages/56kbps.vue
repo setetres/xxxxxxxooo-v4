@@ -36,45 +36,45 @@
     </Detail>
   </CardDetail>
   <CardExternal
-  label="Listen on"
-  title="Apple Music"
-  description="Available now!"
-  url="music.apple.com/br/album/56kbps-single/1565410700"
-  class="pattern"
+    label="Listen on"
+    title="Apple Music"
+    description="Available now!"
+    url="music.apple.com/br/album/56kbps-single/1565410700"
+    class="pattern"
   />
   <CardExternal
-  label="Listen on"
-  title="Bandcamp"
-  description="Available now!"
-  url="xxxxxxxooo.bandcamp.com/track/56kbps"
-  class="pattern"
+    label="Listen on"
+    title="Bandcamp"
+    description="Available now!"
+    url="xxxxxxxooo.bandcamp.com/track/56kbps"
+    class="pattern"
   />
   <CardExternal
-  label="Listen on"
-  title="Deezer"
-  description="Available now!"
-  url="deezer.com/br/album/226743122"
-  class="pattern"
+    label="Listen on"
+    title="Deezer"
+    description="Available now!"
+    url="deezer.com/br/album/226743122"
+    class="pattern"
   />
   <CardExternal
-  label="Listen on"
-  title="Spotify"
-  description="Available now!"
-  url="open.spotify.com/album/6evGL1ZGOjGBJKWdQzN7yT"
-  class="pattern"
+    label="Listen on"
+    title="Spotify"
+    description="Available now!"
+    url="open.spotify.com/album/6evGL1ZGOjGBJKWdQzN7yT"
+    class="pattern"
   />
   <CardExternal
-  label="Listen on"
-  title="Tidal"
-  description="Available now!"
-  url="tidal.com/browse/album/182404878"
-  class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    label="Listen on"
+    title="Tidal"
+    description="Available now!"
+    url="tidal.com/browse/album/182404878"
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
   />
   <CardExternal
-  label="Watch on"
-  title="Youtube"
-  description="Available now!"
-  url="youtube.com/watch?v=EcJp45_onTo"
-  class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    label="Watch on"
+    title="Youtube"
+    description="Available now!"
+    url="youtube.com/watch?v=EcJp45_onTo"
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
   />
 </template>
