@@ -1,8 +1,8 @@
 # xxxxxxxooo-v4
 
-[![Github License](https://img.shields.io/github/license/setetres/xxxxxxxooo-v4.svg?v=1)](https://github.com/setetres/xxxxxxxooo-v4/blob/master/LICENSE)
+[![Github License](https://img.shields.io/github/license/setetres/xxxxxxxooo-v4.svg?v=2)](https://github.com/setetres/xxxxxxxooo-v4/blob/master/LICENSE)
 
-| [![xxxxxxxooo-v4](https://setetres.s3.amazonaws.com/setetres.st/img/share-xxxxxxxooo-v4.png?v=1&raw=true)](http://xxxxxxx.ooo) |
+| [![xxxxxxxooo-v4](https://setetres.s3.amazonaws.com/setetres.st/img/share-xxxxxxxooo-v4.png?v=2&raw=true)](http://xxxxxxx.ooo) |
 | ------------------------------------------------------------------------------------------------------------------------------ |
 
 ## License
