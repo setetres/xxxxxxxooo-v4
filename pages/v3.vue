@@ -8,7 +8,7 @@
       xxxxxxxooo-v3
     </Detail>
     <Detail name="Description">
-      🔋 v3.0 of my website.
+      📀 A knife-grinder music endeavor, version 4.
     </Detail>
     <Detail name="Framework">
       Vue / NuxtJS

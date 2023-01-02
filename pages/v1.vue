@@ -8,7 +8,7 @@
       xxxxxxxooo-v1
     </Detail>
     <Detail name="Description">
-      👻 v1.0 of my website.
+      📀 A knife-grinder music endeavor, version 1.
     </Detail>
     <Detail name="Framework">
       Vue / NuxtJS
