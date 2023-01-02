@@ -1,7 +1,7 @@
 <template>
   <Bar title="I.J.W.G.H" />
   <CardImage>
-    <img src="~assets/images/ijWgh.png" width="1080" height="1080" alt="I.J.W.G.H Cover" />
+    <img src="~assets/images/ijwgh.png" width="1080" height="1080" alt="I.J.W.G.H Cover" />
   </CardImage>
   <CardDetail>
     <Detail name="#01">
