@@ -1,5 +1,5 @@
 <template>
-    <span class="font-serif text-white">
-        <slot />
-    </span>
+  <span class="font-serif text-white">
+    <slot />
+  </span>
 </template>

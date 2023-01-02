@@ -1,42 +1,83 @@
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    app: {
-        head: {
-            title: 'XXXXXOOO — 2023',
-            meta: [
-                // <meta name="viewport" content="width=device-width, initial-scale=1">
-                { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-            ],
-            script: [
-                // <script src="https://myawesome-lib.js"></script>
-            ],
-            link: [
-                // <link rel="stylesheet" href="https://myawesome-lib.css">
-                // { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-                // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Silkscreen&display=swap' }
-            ],
-            // please note that this is an area that is likely to change
-            style: [
-                // <style type="text/css">:root { color: red }</style>
-                // { children: ':root { color: red }', type: 'text/css' }
-            ],
-            noscript: [
-                // <noscript>Javascript is required</noscript>
-                { children: 'Javascript is required' }
-            ],
-            bodyAttrs: {
-                class: 'bg-zinc-900 font-sans pattern select-none'
-            }
-        }
-    },
-    css: [
-        // CSS file in the project
-        '~/assets/css/application.scss',
-    ],
-    postcss: {
-        plugins: {
-            tailwindcss: {},
-            autoprefixer: {},
+  app: {
+    head: {
+      title: 'XXXXXXXOOO',
+      meta: [
+        {
+          charset: 'utf-8'
         },
-    },
+        {
+          name: 'viewport',
+          content: 'width=device-width, height=device-height, user-scalable=no, initial-scale=1'
+        },
+        {
+          name: 'format-detection', content: 'telephone=no'
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'A knife-grinder music endeavor.'
+        },
+        {
+          hid: 'og:type', property: 'og:type', content: 'website'
+        },
+        {
+          hid: 'og:title', property: 'og:title', content: 'XXXXXXXOOO'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'A knife-grinder music endeavor.'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://xxxxxxx.ooo/share.png'
+        },
+        {
+          hid: 'og:url', property: 'og:url', content: 'https://xxxxxxx.ooo'
+        },
+        {
+          hid: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image'
+        },
+        {
+          hid: 'twitter:title', name: 'twitter:title', content: 'XXXXXXXOOO'
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'A knife-grinder music endeavor.'
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: 'https://xxxxxxx.ooo/share.png'
+        },
+      ],
+      script: [
+      ],
+      link: [
+        { rel: 'icon', href: '/favicon.svg' }
+      ],
+      style: [
+      ],
+      noscript: [
+        { children: 'Javascript is required' }
+      ],
+      bodyAttrs: {
+        class: 'bg-zinc-900 font-sans pattern select-none'
+      }
+    }
+  },
+  css: [
+    '~/assets/css/application.scss'
+  ],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
+  }
 })
