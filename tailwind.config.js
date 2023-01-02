@@ -6,23 +6,23 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "./app.vue",
+    "./app.vue"
   ],
   theme: {
     fontFamily: {
       'sans': ['pixel_operatorregular'],
-      'serif': ['alagardmedium'],
+      'serif': ['alagardmedium']
     },
     extend: {
       maxWidth: {
-        '14xl': '160rem',
+        '14xl': '160rem'
       }
     },
   },
   corePlugins: {
-    aspectRatio: false,
+    aspectRatio: false
   },
   plugins: [
-    require('@tailwindcss/aspect-ratio'),
-  ],
+    require('@tailwindcss/aspect-ratio')
+  ]
 }

@@ -8,7 +8,7 @@
       xxxxxxxooo-v3
     </Detail>
     <Detail name="Description">
-      📀 A knife-grinder music endeavor, version 4.
+      📀 A knife-grinder music endeavor, version 3.
     </Detail>
     <Detail name="Framework">
       Vue / NuxtJS

@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="h-auto w-full sticky top-24"
+    class="h-auto w-44 max-w-full sticky top-24"
     viewBox="0 0 412.3 172.2"
     xmlns="http://www.w3.org/2000/svg"
   >
