@@ -1,5 +1,9 @@
 <template>
-  <Bar title="Against Filet" />
+  <Bar
+    id="back"
+    title="Against Filet"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/against-filet.png" width="1080" height="1080" alt="Against Filet Cover" />
   </CardImage>
@@ -59,51 +63,83 @@
       Single
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2023
       </Tag>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-against-filet"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/against-filet-feat-grupo-porco-single/1657179996"
-    class="pattern"
+    url="https://music.apple.com/br/album/against-filet-feat-grupo-porco-single/1657179996"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-against-filet"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/track/against-filet-feat-grupo-porco"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/track/against-filet-feat-grupo-porco"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-against-filet"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/382102277"
-    class="pattern"
+    url="https://deezer.com/br/album/382102277"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-against-filet"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/track/1SN0NipEOXhXCj82GlLrpG?si=b0671b9c14d74cc0"
-    class="pattern"
+    url="https://open.spotify.com/track/1SN0NipEOXhXCj82GlLrpG?si=b0671b9c14d74cc0"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-against-filet"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/263564575"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/263564575"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-against-filet"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=agflnPX22cQ"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=agflnPX22cQ"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>
+

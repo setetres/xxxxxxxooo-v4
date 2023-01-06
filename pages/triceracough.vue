@@ -1,5 +1,9 @@
 <template>
-  <Bar title="TRICERACOUGH" />
+  <Bar
+    id="back"
+    title="TRICERACOUGH"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/triceracough.png" width="1080" height="1080" alt="TRICERACOUGH Cover" />
   </CardImage>
@@ -32,51 +36,82 @@
       Single
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2020
       </Tag>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-triceracough"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/triceracough-single/1514705104"
-    class="pattern"
+    url="https://music.apple.com/br/album/triceracough-single/1514705104"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-triceracough"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/track/triceracough"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/track/triceracough"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-triceracough"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/149920012"
-    class="pattern"
+    url="https://deezer.com/br/album/149920012"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-triceracough"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/album/1o0IoOxGycM6IfD7EcYxZ9"
-    class="pattern"
+    url="https://open.spotify.com/album/1o0IoOxGycM6IfD7EcYxZ9"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-triceracough"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/142432861"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/142432861"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-triceracough"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=CKqnuZBjsZY"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=CKqnuZBjsZY"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>

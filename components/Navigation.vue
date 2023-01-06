@@ -2,12 +2,21 @@
   <nav class="grid grid-cols-2 md:grid-cols-4 gap-y-12 uppercase">
     <div class="space-y-12">
       <div>
-        <HeadingSans>2023</HeadingSans>
+        <HeadingSans>
+          2023
+        </HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/against-filet">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="against-filet"
+              to="/against-filet"
+            >
               Against Filet
-              <Tag class="ml-2">
+              <Tag
+                class="ml-2"
+                color="bg-fuchsia-500"
+              >
                 New
               </Tag>
             </NavigationLink>
@@ -15,10 +24,16 @@
         </ul>
       </div>
       <div>
-        <HeadingSans>2022</HeadingSans>
+        <HeadingSans>
+          2022
+        </HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/lunchrider-exe">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="lunchrider-exe"
+              to="/lunchrider-exe"
+            >
               LunchRider.exe
             </NavigationLink>
           </li>
@@ -27,30 +42,52 @@
     </div>
     <div class="space-y-12">
       <div>
-        <HeadingSans>2021</HeadingSans>
+        <HeadingSans>
+          2021
+        </HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/ijwgh">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="ijwgh"
+              to="/ijwgh"
+            >
               I.J.W.G.H
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/28kbps">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="28kbps"
+              to="/28kbps"
+            >
               28kbps
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/56kbps">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="56kbps"
+              to="/56kbps"
+            >
               56kbps
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/untitled">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="untitled"
+              to="/untitled"
+            >
               Untitled
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/nief">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="nief"
+              to="/nief"
+            >
               NIEF
             </NavigationLink>
           </li>
@@ -59,30 +96,52 @@
     </div>
     <div class="space-y-12">
       <div>
-        <HeadingSans>2020</HeadingSans>
+        <HeadingSans>
+          2020
+        </HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/vazio">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="vazio"
+              to="/vazio"
+            >
               VAZIØ
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/vingt-vingt">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="vingt-vingt"
+              to="/vingt-vingt"
+            >
               VINGT-VINGT
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/moshaxe">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="moshaxe"
+              to="/moshaxe"
+            >
               MOSHAXÉ
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/triceracough">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="triceracough"
+              to="/triceracough"
+            >
               TRICERACOUGH
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/fein">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="fein"
+              to="/fein"
+            >
               FEIN
             </NavigationLink>
           </li>
@@ -91,20 +150,34 @@
     </div>
     <div class="space-y-12">
       <div>
-        <HeadingSans>Archive</HeadingSans>
+        <HeadingSans>
+          Archive
+        </HeadingSans>
         <ul role="list" class="mt-6 space-y-3">
           <li>
-            <NavigationLink to="/v3">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="v3"
+              to="/v3"
+            >
               Version Three
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v2">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="v2"
+              to="/v2"
+            >
               Version Two
             </NavigationLink>
           </li>
           <li>
-            <NavigationLink to="/v1">
+            <NavigationLink
+              color="hover:text-fuchsia-500"
+              id="v1"
+              to="/v1"
+            >
               Version One
             </NavigationLink>
           </li>

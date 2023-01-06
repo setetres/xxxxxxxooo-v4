@@ -4,6 +4,8 @@
     <div class="flex md:items-center justify-between mt-6 pt-6 md:mt-12 md:pt-12 border-t border-zinc-700">
       <div class="flex items-center space-x-2">
         <FooterLink
+          color="hover:text-fuchsia-500"
+          id="footer-setetres"
           label="Sete Três"
           url="https://setetr.es"
         >
@@ -17,6 +19,8 @@
       </div>
       <div class="flex items-center justify-start sm:justify-end space-x-2">
         <FooterLink
+          color="hover:text-fuchsia-500"
+          id="footer-applemusic"
           label="Apple Music"
           url="https://music.apple.com/br/artist/xxxxxxxooo/1513745230"
         >
@@ -25,6 +29,8 @@
           </svg>
         </FooterLink>
         <FooterLink
+          color="hover:text-fuchsia-500"
+          id="footer-bandcamp"
           label="Bandcamp"
           url="https://xxxxxxxooo.bandcamp.com"
         >
@@ -33,6 +39,8 @@
           </svg>
         </FooterLink>
         <FooterLink
+          color="hover:text-fuchsia-500"
+          id="footer-deezer"
           label="Deezer"
           url="https://deezer.com/br/artist/94957922"
         >
@@ -41,6 +49,8 @@
           </svg>
         </FooterLink>
         <FooterLink
+          color="hover:text-fuchsia-500"
+          id="footer-spotify"
           label="Spotify"
           url="https://open.spotify.com/artist/4jTVrvdD8pkTxnc9bRPcwU"
         >
@@ -49,6 +59,8 @@
           </svg>
         </FooterLink>
         <FooterLink
+          color="hover:text-fuchsia-500"
+          id="footer-tidal"
           label="Tidal"
           url="https://tidal.com/browse/artist/19639139"
         >
@@ -57,6 +69,8 @@
           </svg>
         </FooterLink>
         <FooterLink
+          color="hover:text-fuchsia-500"
+          id="footer-youtube"
           label="YouTube"
           url="https://youtube.com/setetres"
         >

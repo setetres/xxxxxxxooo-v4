@@ -1,5 +1,9 @@
 <template>
-  <Bar title="FEIN" />
+  <Bar
+    id="back"
+    title="FEIN"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/fein.png" width="1080" height="1080" alt="FEIN Cover" />
   </CardImage>
@@ -60,56 +64,91 @@
       EP
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2020
       </Tag>
     </Detail>
     <Detail name="Extra">
-      <NavigationLink to="https://instagram.com/ar/929622894133566" class="underline" target="_blank">
+      <NavigationLink
+        to="https://instagram.com/ar/929622894133566"
+        class="hover:text-fuchsia-500 underline"
+        target="_blank"
+      >
         Instagram Filter
       </NavigationLink>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-fein"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/fein-ep/1513768644"
-    class="pattern"
+    url="https://music.apple.com/br/album/fein-ep/1513768644"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-fein"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/album/fein"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/album/fein"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-fein"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/148877002"
-    class="pattern"
+    url="https://deezer.com/br/album/148877002"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-fein"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/album/0nN10kpHYXrOmIKOr36Ggx"
-    class="pattern"
+    url="https://open.spotify.com/album/0nN10kpHYXrOmIKOr36Ggx"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-fein"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/141839510"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/141839510"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-fein"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=JtOb7rY6024&list=PLWjcKkvgds-9TuK2urpOPMtvwxTU23zmO"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=JtOb7rY6024&list=PLWjcKkvgds-9TuK2urpOPMtvwxTU23zmO"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>

@@ -1,5 +1,9 @@
 <template>
-  <Bar title="NIEF" />
+  <Bar
+    id="back"
+    title="NIEF"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/nief.png" width="1080" height="1080" alt="NIEF Cover" />
   </CardImage>
@@ -221,56 +225,91 @@
       EP
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2021
       </Tag>
     </Detail>
     <Detail name="Extra">
-      <NavigationLink to="https://instagram.com/ar/1241536719557611" class="underline" target="_blank">
+      <NavigationLink
+        to="https://instagram.com/ar/1241536719557611"
+        class="hover:text-fuchsia-500 underline"
+        target="_blank"
+      >
         Instagram Filter
       </NavigationLink>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-nief"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/nief-ep/1551229648"
-    class="pattern"
+    url="https://music.apple.com/br/album/nief-ep/1551229648"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-nief"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/album/nief"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/album/nief"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-nief"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/203576412"
-    class="pattern"
+    url="https://deezer.com/br/album/203576412"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-nief"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/album/5gX1vki0e5muS6cZlAKRJC"
-    class="pattern"
+    url="https://open.spotify.com/album/5gX1vki0e5muS6cZlAKRJC"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-nief"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/171478178"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/171478178"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-nief"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=kz9_0yhU6HI&list=PLWjcKkvgds--JU0L2XjDhaEJbKwNZJCk6"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=kz9_0yhU6HI&list=PLWjcKkvgds--JU0L2XjDhaEJbKwNZJCk6"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>

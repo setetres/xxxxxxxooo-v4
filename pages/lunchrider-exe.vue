@@ -1,5 +1,9 @@
 <template>
-  <Bar title="LunchRider.exe" />
+  <Bar
+    id="back"
+    title="LunchRider.exe"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/lunchrider-exe.png" width="1080" height="1080" alt="LunchRider.exe Cover" />
   </CardImage>
@@ -39,56 +43,91 @@
       EP
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2022
       </Tag>
     </Detail>
     <Detail name="Extra">
-      <NavigationLink to="https://instagram.com/ar/430523635205836" class="underline" target="_blank">
+      <NavigationLink
+        to="https://instagram.com/ar/430523635205836"
+        class="hover:text-fuchsia-500 underline"
+        target="_blank"
+      >
         Instagram Filter
       </NavigationLink>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-lunchrider-exe"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/lunchrider-exe-single/1600384926"
-    class="pattern"
+    url="https://music.apple.com/br/album/lunchrider-exe-single/1600384926"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-lunchrider-exe"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/album/lunchrider-exe"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/album/lunchrider-exe"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-lunchrider-exe"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/280521002"
-    class="pattern"
+    url="https://deezer.com/br/album/280521002"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-lunchrider-exe"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/album/5llp2E1SNPaZZPT0Fospwi"
-    class="pattern"
+    url="https://open.spotify.com/album/5llp2E1SNPaZZPT0Fospwi"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-lunchrider-exe"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/209251677"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/209251677"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-lunchrider-exe"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=o7GLLbly_6A"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=o7GLLbly_6A"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>

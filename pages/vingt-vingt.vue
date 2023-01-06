@@ -1,5 +1,9 @@
 <template>
-  <Bar title="VINGT-VINGT" />
+  <Bar
+    id="back"
+    title="VINGT-VINGT"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/vingt-vingt.png" width="1080" height="1080" alt="VINGT-VINGT Cover" />
   </CardImage>
@@ -138,56 +142,91 @@
       LP
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2020
       </Tag>
     </Detail>
     <Detail name="Extra">
-      <NavigationLink to="https://instagram.com/ar/965617350568430" class="underline" target="_blank">
+      <NavigationLink
+        to="https://instagram.com/ar/965617350568430"
+        class="hover:text-fuchsia-500 underline"
+        target="_blank"
+      >
         Instagram Filter
       </NavigationLink>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-vingt-vingt"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
     url="music.apple.com/br/album/vingt-vingt/1525239686"
-    class="pattern"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-vingt-vingt"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
     url="xxxxxxxooo.bandcamp.com/album/vingt-vingt"
-    class="pattern"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-vingt-vingt"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
     url="deezer.com/br/album/163383462"
-    class="pattern"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-vingt-vingt"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
     url="open.spotify.com/album/6NgLlnVG9HTJA8U0TcRj4Z"
-    class="pattern"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-vingt-vingt"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
     url="tidal.com/browse/album/150081917"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-vingt-vingt"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
     url="youtube.com/watch?v=zfEtdrSOpNs"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>

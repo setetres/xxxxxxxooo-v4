@@ -1,5 +1,9 @@
 <template>
-  <Bar title="MOSHAXÉ" />
+  <Bar
+    id="back"
+    title="MOSHAXÉ"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/moshaxe.png" width="1080" height="1080" alt="MOSHAXÉ Cover" />
   </CardImage>
@@ -27,51 +31,82 @@
       Single
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2020
       </Tag>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-moshaxe"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/moshax%C3%A9-single/1517796928"
-    class="pattern"
+    url="https://music.apple.com/br/album/moshax%C3%A9-single/1517796928"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-moshaxe"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/track/moshax"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/track/moshax"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-moshaxe"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/153832442"
-    class="pattern"
+    url="https://deezer.com/br/album/153832442"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-moshaxe"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/album/252g8ZxQ4NWe0SdrW40qoh"
-    class="pattern"
+    url="https://open.spotify.com/album/252g8ZxQ4NWe0SdrW40qoh"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-moshaxe"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/144626772"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/144626772"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-moshaxe"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=Cv9DGU4jOQ8"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=Cv9DGU4jOQ8"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>

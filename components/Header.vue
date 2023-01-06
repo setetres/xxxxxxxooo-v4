@@ -1,7 +1,9 @@
 <template>
   <div class="flex flex-col flex-1">
     <header aria-labelledby="header-heading" class="flex flex-col flex-1">
-      <h2 id="header-heading" class="sr-only">Header</h2>
+      <h2 id="header-heading" class="sr-only">
+        Header
+      </h2>
       <div class="flex-1 px-0 py-6 m-12 md:m-24">
         <Logo />
       </div>

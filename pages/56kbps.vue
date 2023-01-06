@@ -1,5 +1,9 @@
 <template>
-  <Bar title="56kbps" />
+  <Bar
+    id="back"
+    title="56kbps"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/56kbps.png" width="1080" height="1080" alt="56kbps Cover" />
   </CardImage>
@@ -30,51 +34,82 @@
       Single
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2021
       </Tag>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-56kbps"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/56kbps-single/1565410700"
-    class="pattern"
+    url="https://music.apple.com/br/album/56kbps-single/1565410700"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-56kbps"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/track/56kbps"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/track/56kbps"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-56kbps"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/226743122"
-    class="pattern"
+    url="https://deezer.com/br/album/226743122"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-56kbps"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/album/6evGL1ZGOjGBJKWdQzN7yT"
-    class="pattern"
+    url="https://open.spotify.com/album/6evGL1ZGOjGBJKWdQzN7yT"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-56kbps"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/182404878"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/182404878"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-56kbps"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=EcJp45_onTo"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=EcJp45_onTo"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>

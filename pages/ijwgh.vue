@@ -1,5 +1,9 @@
 <template>
-  <Bar title="I.J.W.G.H" />
+  <Bar
+    id="back"
+    title="I.J.W.G.H"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/ijwgh.png" width="1080" height="1080" alt="I.J.W.G.H Cover" />
   </CardImage>
@@ -27,51 +31,83 @@
       Single
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2021
       </Tag>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-ijwgh"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/i-j-w-g-h-single/1577022357"
-    class="pattern"
+    url="https://music.apple.com/br/album/i-j-w-g-h-single/1577022357"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-ijwgh"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/track/i-j-w-g-h"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/track/i-j-w-g-h"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-ijwgh"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/245251512"
-    class="pattern"
+    url="https://deezer.com/br/album/245251512"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-ijwgh"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/album/4tsB7ObHBi18ggyWmTQKM1"
-    class="pattern"
+    url="https://open.spotify.com/album/4tsB7ObHBi18ggyWmTQKM1"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-ijwgh"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/191341873"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/191341873"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-ijwgh"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=Kx-yKxgDpaE"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=Kx-yKxgDpaE"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>
+

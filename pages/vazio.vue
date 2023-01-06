@@ -1,5 +1,9 @@
 <template>
-  <Bar title="VAZIØ" />
+  <Bar
+    id="back"
+    title="VAZIØ"
+    color="hover:text-fuchsia-500"
+  />
   <CardImage>
     <img src="~assets/images/vazio.png" width="1080" height="1080" alt="VAZIØ Cover" />
   </CardImage>
@@ -27,51 +31,82 @@
       Single
     </Detail>
     <Detail name="Year">
-      <Tag>
+      <Tag color="bg-fuchsia-500">
         2020
       </Tag>
     </Detail>
   </CardDetail>
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="applemusic-vazio"
     label="Listen on"
     title="Apple Music"
-    description="Available now!"
-    url="music.apple.com/br/album/vazi%C3%B8-single/1534502526"
-    class="pattern"
+    url="https://music.apple.com/br/album/vazi%C3%B8-single/1534502526"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="bandcamp-vazio"
     label="Listen on"
     title="Bandcamp"
-    description="Available now!"
-    url="xxxxxxxooo.bandcamp.com/track/vazi"
-    class="pattern"
+    url="https://xxxxxxxooo.bandcamp.com/track/vazi"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="deezer-vazio"
     label="Listen on"
     title="Deezer"
-    description="Available now!"
-    url="deezer.com/br/album/177544912"
-    class="pattern"
+    url="https://deezer.com/br/album/177544912"
   />
-  <CardExternal
+  <CardMain
+    class="pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="spotify-vazio"
     label="Listen on"
     title="Spotify"
-    description="Available now!"
-    url="open.spotify.com/album/2ooPMxZyHDTq8ltMm6UdqB"
-    class="pattern"
+    url="https://open.spotify.com/album/2ooPMxZyHDTq8ltMm6UdqB"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="tidal-vazio"
     label="Listen on"
     title="Tidal"
-    description="Available now!"
-    url="tidal.com/browse/album/157442782"
-    class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
+    url="https://tidal.com/browse/album/157442782"
   />
-  <CardExternal
+  <CardMain
+    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    color="group-hover:text-fuchsia-500"
+    description="Available now!"
+    external="true"
+    id="youtube-vazio"
     label="Watch on"
     title="Youtube"
-    description="Available now!"
-    url="youtube.com/watch?v=Bv3jI_nFQEw"
-    class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
+    url="https://youtube.com/watch?v=Bv3jI_nFQEw"
   />
 </template>
+<script>
+  export default {
+    mounted() {
+      this.$nextTick(() => {
+      })
+    },
+    beforeRouteLeave(to, from, next) {
+      setTimeout(function() {
+        next()
+      }, 173)
+    }
+  }
+</script>
