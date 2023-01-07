@@ -65,7 +65,7 @@
     <img src="~assets/images/vingt-vingt-image.jpg" width="1920" height="1080" alt="VINGT-VINGT Vinyl Pack" class="w-full" />
   </CardImage>
   <CardText>
-    <HeadingSans>Only 10 Available!</HeadingSans>
+    <HeadingSans>Only 10 Available!</HeadingSans><br />
     <HeadingSerif class="text-5xl">
       VINGT-VINGT Vynil Limited Edition
     </HeadingSerif>

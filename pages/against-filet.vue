@@ -21,7 +21,7 @@
     </div>
   </CardImage>
   <CardText>
-    <HeadingSans>Lyrics</HeadingSans>
+    <HeadingSans>Lyrics</HeadingSans><br />
     <HeadingSerif class="text-5xl">
       Against Filet
     </HeadingSerif>

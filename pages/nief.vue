@@ -39,7 +39,7 @@
     </div>
   </CardImage>
   <CardText>
-    <HeadingSans>Lyrics</HeadingSans>
+    <HeadingSans>Lyrics</HeadingSans><br />
     <HeadingSerif class="text-5xl">
       QUATRE-VINGT-DIX-NEUF
     </HeadingSerif>
@@ -81,7 +81,7 @@
     </div>
   </CardImage>
   <CardText>
-    <HeadingSans>Lyrics</HeadingSans>
+    <HeadingSans>Lyrics</HeadingSans><br />
     <HeadingSerif class="text-5xl">
       COWEED-19
     </HeadingSerif>
@@ -132,7 +132,7 @@
     </div>
   </CardImage>
   <CardText>
-    <HeadingSans>Lyrics</HeadingSans>
+    <HeadingSans>Lyrics</HeadingSans><br />
     <HeadingSerif class="text-5xl">
       XD
     </HeadingSerif>
@@ -169,7 +169,7 @@
     </div>
   </CardImage>
   <CardText>
-    <HeadingSans>Lyrics</HeadingSans>
+    <HeadingSans>Lyrics</HeadingSans><br />
     <HeadingSerif class="text-5xl">
       BANJO
     </HeadingSerif>
