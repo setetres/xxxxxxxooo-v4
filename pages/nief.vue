@@ -231,9 +231,11 @@
     </Detail>
     <Detail name="Extra">
       <NavigationLink
+        class="underline"
+        color="hover:text-fuchsia-500"
+        external="true"
+        id="instagram-nief"
         to="https://instagram.com/ar/1241536719557611"
-        class="hover:text-fuchsia-500 underline"
-        target="_blank"
       >
         Instagram Filter
       </NavigationLink>

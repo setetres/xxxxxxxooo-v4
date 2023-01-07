@@ -49,9 +49,11 @@
     </Detail>
     <Detail name="Extra">
       <NavigationLink
+        class="underline"
+        color="hover:text-fuchsia-500"
+        external="true"
+        id="instagram-lunchrider-exe"
         to="https://instagram.com/ar/430523635205836"
-        class="hover:text-fuchsia-500 underline"
-        target="_blank"
       >
         Instagram Filter
       </NavigationLink>

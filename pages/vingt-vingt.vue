@@ -148,9 +148,11 @@
     </Detail>
     <Detail name="Extra">
       <NavigationLink
+        class="underline"
+        color="hover:text-fuchsia-500"
+        external="true"
+        id="instagram-vingt-vingt"
         to="https://instagram.com/ar/965617350568430"
-        class="hover:text-fuchsia-500 underline"
-        target="_blank"
       >
         Instagram Filter
       </NavigationLink>
