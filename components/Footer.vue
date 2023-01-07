@@ -1,6 +1,8 @@
 <template>
   <footer aria-labelledby="footer-heading" class="flex flex-col flex-1">
-    <h2 id="footer-heading" class="sr-only">Footer</h2>
+    <h2 id="footer-heading" class="sr-only">
+      Footer
+    </h2>
     <div class="flex md:items-center justify-between mt-6 pt-6 md:mt-12 md:pt-12 border-t border-zinc-700">
       <div class="flex items-center space-x-2">
         <FooterLink
