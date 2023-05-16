@@ -158,6 +158,11 @@
       </NavigationLink>
     </Detail>
   </CardDetail>
+  <CardImage class="col-span-2">
+    <div class="w-full aspect-w-16 aspect-h-9">
+      <iframe class="w-full" width="560" height="315" src="https://www.youtube.com/embed/Zhsc6IMDR6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </CardImage>
   <CardMain
     class="pattern"
     color="group-hover:text-fuchsia-500"

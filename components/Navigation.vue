@@ -13,12 +13,6 @@
               to="/against-filet"
             >
               Against Filet
-              <Tag
-                class="ml-2"
-                color="bg-fuchsia-500"
-              >
-                New
-              </Tag>
             </NavigationLink>
           </li>
         </ul>
