@@ -171,7 +171,7 @@
     id="applemusic-vingt-vingt"
     label="Listen on"
     title="Apple Music"
-    url="music.apple.com/br/album/vingt-vingt/1525239686"
+    url="https://music.apple.com/br/album/vingt-vingt/1525239686"
   />
   <CardMain
     class="pattern"
@@ -181,7 +181,7 @@
     id="bandcamp-vingt-vingt"
     label="Listen on"
     title="Bandcamp"
-    url="xxxxxxxooo.bandcamp.com/album/vingt-vingt"
+    url="https://xxxxxxxooo.bandcamp.com/album/vingt-vingt"
   />
   <CardMain
     class="pattern"
@@ -191,7 +191,7 @@
     id="deezer-vingt-vingt"
     label="Listen on"
     title="Deezer"
-    url="deezer.com/br/album/163383462"
+    url="https://deezer.com/br/album/163383462"
   />
   <CardMain
     class="pattern"
@@ -201,7 +201,7 @@
     id="spotify-vingt-vingt"
     label="Listen on"
     title="Spotify"
-    url="open.spotify.com/album/6NgLlnVG9HTJA8U0TcRj4Z"
+    url="https://open.spotify.com/album/6NgLlnVG9HTJA8U0TcRj4Z"
   />
   <CardMain
     class="rounded-b-none sm:rounded-bl-lg sm:rounded-br-none pattern"
@@ -211,7 +211,7 @@
     id="tidal-vingt-vingt"
     label="Listen on"
     title="Tidal"
-    url="tidal.com/browse/album/150081917"
+    url="https://tidal.com/browse/album/150081917"
   />
   <CardMain
     class="rounded-b-lg sm:rounded-bl-none sm:rounded-br-lg pattern"
@@ -221,7 +221,7 @@
     id="youtube-vingt-vingt"
     label="Watch on"
     title="Youtube"
-    url="youtube.com/watch?v=zfEtdrSOpNs"
+    url="https://youtube.com/watch?v=zfEtdrSOpNs"
   />
 </template>
 <script>
